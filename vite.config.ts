@@ -4,10 +4,10 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/CloneSnapGram/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/clone-snap-gram",
 });
